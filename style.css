@@ -417,6 +417,7 @@ line-height: 24px;
 color:  #FFFFFF;
 margin-bottom: 5rem;
 
+
 } 
  .social-media svg{
     margin-top: 2rem;
@@ -424,7 +425,14 @@ margin-bottom: 5rem;
     width: 2rem;
     right: 0.4rem;
     padding: 0.4rem;
+ 
 } 
+
+.icon:hover path{
+    fill:  #fc0a0a;
+    cursor: pointer;
+    
+}
 
 .last-section-content span{
     font-family:'Open Sans', sans-serif;
@@ -501,8 +509,8 @@ header .header{
 }
   
  .logo{
-    width: 96px;
-    height:16px;  
+    width: 120px;
+    /* height:16px;   */
     position: relative;
     left:1rem;
     top:1rem;
@@ -603,7 +611,7 @@ header .header{
     margin-left: 2rem;
 } 
 
-..small-text-content2 span{
+.small-text-content2 span{
     font-size: 13.3798px;
     font-weight:400;
     line-height:36px;
